@@ -6,8 +6,13 @@
 }
 
 
-.jumbo-header{
+.jumbo-header, #service,#get-started{
     background-color: blue;
+    color: white;
+}
+#footer{
+    background-color: darkblue;
+    color: white;
 }
 
 body > header > div.container-fluid.jumbo-header > div > div{
@@ -132,7 +137,7 @@ body > header > div.container-fluid.jumbo-header > div > div{
     text-align: center
 }
 
-.deploy, .developers,.features{
+.deploy, .developers,.features, .service,.get-started,.footer{
     border: 1px  solid black;
     height: 100%;
 }
