@@ -3,8 +3,13 @@
 }
 .submit{
     
-    background: white;
-    border: 1 px solid  #0C71FF;
+    margin-top: 2px;
+}
+body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(1){
+    color: white;
+}
+h3{
+    color: black;
 }
 .btn-success {
     color:#0C71FF;
@@ -13,6 +18,9 @@
 .logo-img{
     height: 100%;
 }
+body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) > form > div > div > p{
+    color: black;
+}
 
 
 .business-logo{
@@ -20,9 +28,12 @@
     height: 150px;
     background-color: lightgrey;
 }
+.jumbo-header{
+    background-image:  url(../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    margin-bottom: 0;
+}
 
-
-.jumbo-header, #service,#get-started{
+#service,#get-started{
     background-color: blue;
     color: white;
 }
