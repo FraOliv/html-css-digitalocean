@@ -5,11 +5,17 @@
     
     margin-top: 2px;
 }
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: grey;
+}
 body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(1){
     color: white;
 }
 h3{
     color: black;
+}
+p{
+    color: grey;
 }
 .btn-success {
     color:#0C71FF;
@@ -23,20 +29,36 @@ body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) 
 }
 
 
-.business-logo{
-    border: 1px  solid black;
-    height: 150px;
-    background-color: lightgrey;
-}
 .jumbo-header{
     background-image:  url(../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
     margin-bottom: 0;
+    background-size: cover;
 }
+.lead{
+
+    color: lightgrey;
+}
+/* SERVICE */
+#service {
+    line-height: 35px;
+  }
+  #service .col-lg-3 {
+    text-align: right;
+  }
 
 #service,#get-started{
     background-color: blue;
     color: white;
 }
+#service > .container-fluid> .container> .col-lg-6 .row > [class*=col]  {
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+    padding: ;
+}
+#service > .container-fluid> .container> .col-lg-6{
+    padding: 2%;
+}
+
 #footer{
     background-color: darkblue;
     color: white;
@@ -124,6 +146,12 @@ body > header > div.container-fluid.jumbo-header > div > div{
 .m-b-20 {
     margin-bottom: 20px
 }
+.business-logo{
+    background-color: #f3f5f9;
+}
+.p-0 {
+    padding: 0 5px;
+}
 
 .btn-md {
     padding: 10px 16px;
@@ -163,8 +191,19 @@ body > header > div.container-fluid.jumbo-header > div > div{
     margin: 0 15px;
     text-align: center
 }
+.deploy ul {
+    border-left: 1px solid grey;
+    padding-left: 10px;
+ }
+ 
+ .deploy li {
+    line-height: 3rem;
+    list-style: none;
+    color: grey;
+    font-size: 2rem;
+ }
 
-.deploy, .developers,.features, .service,.get-started,.footer{
+.deploy, .developers,.features, .get-started,.footer{
     border: 1px  solid black;
     height: 100%;
 }
