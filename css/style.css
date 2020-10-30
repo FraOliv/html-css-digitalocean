@@ -1,3 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    color: #5c6a88;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  [class*="col-"] {
+    padding: 10px 15px;
+  }
+  h2{
+    color: #031c4e;
+    margin: 0;
+    font-size: 35px;
+  }
+p{
+    font-size: 18px;
+}
 .navbar{
     background-color: white;
 }
@@ -21,6 +39,12 @@ p{
     color:#0C71FF;
     background-color: white;
     border-color:  #0C71FF;}
+    .btn-success:hover {
+        color: white;
+        background-color: #0269FF;
+        transition: background-color 0.25s linear,border-color 0.25s linear,color 0.25s linear;
+        border-color: #0269FF;
+      }
 .logo-img{
     height: 100%;
 }
@@ -45,9 +69,12 @@ body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) 
   #service .col-lg-3 {
     text-align: right;
   }
+  #service> h2{
+      color: white;
+  }
 
 #service,#get-started{
-    background-color: #0039B5;
+   background: linear-gradient(108deg, rgba(0,72,198,1) 35%, rgba(0,32,155,1) 100%);
     color: white;
 }
 #service > .container-fluid> .container> .col-lg-6 .row > [class*=col]  {
@@ -58,11 +85,11 @@ body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) 
 #service > .container-fluid> .container> .col-lg-6{
     padding: 2%;
 }
-
-#footer{
-    background-color: darkblue;
-    color: white;
+#service > .container-fluid> .container> .col-lg-6 .row > [class*=col] a {
+    color: #00d5d1;
 }
+
+
 
 body > header > div.container-fluid.jumbo-header > div > div{
     margin-top: 10%;
@@ -152,6 +179,12 @@ body > header > div.container-fluid.jumbo-header > div > div{
 .p-0 {
     padding: 0 5px;
 }
+.p_5{
+    padding: 5%;
+}
+.white{
+    color: white;
+}
 
 .btn-md {
     padding: 10px 16px;
@@ -170,7 +203,10 @@ body > header > div.container-fluid.jumbo-header > div > div{
 .btn-google {
     color: #545454;
     background-color: #ffffff;
-    box-shadow: 0 1px 2px 1px #ddd
+    box-shadow: 0 1px 2px 1px #ddd;
+}
+#google{
+    float: left;
 }
 
 .or-container {
@@ -194,23 +230,57 @@ body > header > div.container-fluid.jumbo-header > div > div{
 .deploy ul {
     border-left: 1px solid grey;
     padding-left: 10px;
+    text-align: left;
  }
  
  .deploy li {
-    line-height: 3rem;
+    line-height: 40px;
     list-style: none;
     color: grey;
     font-size: 2rem;
  }
 
- .features, .get-started,.footer{
-    border: 1px  solid black;
-    height: 100%;
-}
+
+
 
 #developers > div > div > div > div:nth-child(2) > img{
 height: 350px;
 }
+#deploy > div > div > div:nth-child(1) > div{
+    margin-bottom: 2%;
+}
+.create{
+        color: #006aff ;
+      }
+
+      #footer{
+        color: #7a859d;
+        background-color: #031c4e;
+    };
+    }
+      #footer > div > div > div > div.col-lg-8.col-md-8.col-sm-12 > div:nth-child(1) > ul{
+           padding: 0;
+      }
+      #footer > .container-fluid > .container> .row> .col-lg-8  > .col-xs-12> ul> li {
+        list-style-type: none;
+    }
+        #footer > .container-fluid > .container> .row> .col-lg-8  > .col-xs-12> ul> li > a{
+
+        color: #a6adbd;
+        }
+        .footer_link_title {
+            font-weight: bold;
+            color: white;
+          }
+        footer .fab {
+            color: #7a859d;
+            font-size: 20px;
+            margin: 10px 5px;
+          
+          }
+
+
+
 @media (max-width: 990px) {
     .navbar-header {
         float: none;
@@ -236,3 +306,5 @@ height: 350px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+ 
+  
