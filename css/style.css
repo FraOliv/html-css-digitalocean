@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif !important;
-    color: #5c6a88;
+    color: #031c4e;
     font-size: 16px;
     font-weight: 400;
   }
@@ -19,18 +19,31 @@ p{
 .navbar{
     background-color: white;
 }
+.navbar-inverse .navbar-nav>li>a{
+    color: #031c4e;
+}
+.navbar-right{
+    margin-top: 1%;
+}
+.navbar-brand{
+    margin-top: 3%;
+}
 .submit{
     
     margin-top: 2px;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: grey;
+    background-color: #0C71FF;
 }
 body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(1){
     color: white;
 }
-h3{
-    color: black;
+h3, .dark-blue{
+    color: #031c4e;
+}
+
+.link-blue{
+  color: #0C71FF;
 }
 p{
     color: grey;
@@ -38,7 +51,8 @@ p{
 .btn-success {
     color:#0C71FF;
     background-color: white;
-    border-color:  #0C71FF;}
+    border-color:  #0C71FF;
+}
     .btn-success:hover {
         color: white;
         background-color: #0269FF;
@@ -78,9 +92,8 @@ body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) 
     color: white;
 }
 #service > .container-fluid> .container> .col-lg-6 .row > [class*=col]  {
-    border-bottom: 2px solid white;
-    margin-bottom: 5px;
-    padding: ;
+    border-bottom: 1.5px solid white;
+    margin-bottom: 5px;;
 }
 #service > .container-fluid> .container> .col-lg-6{
     padding: 2%;
@@ -173,8 +186,9 @@ body > header > div.container-fluid.jumbo-header > div > div{
 .m-b-20 {
     margin-bottom: 20px
 }
-.business-logo, #developers{
+.business-logo, #developers, #rockerbox{
     background-color: #f3f5f9;
+
 }
 .p-0 {
     padding: 0 5px;
@@ -244,14 +258,29 @@ body > header > div.container-fluid.jumbo-header > div > div{
 
 
 #developers > div > div > div > div:nth-child(2) > img{
-height: 350px;
+width: 100%;
 }
+#carousel{
+    margin-top: 20%;
+    font-size: 50px;
+    color: grey;
+}
+#carousel_2{
+    margin-top: 10%;
+    font-size: 50px;
+    color: grey;
+}
+.card-img-top{
+    margin-bottom: 25px;
+}
+
 #deploy > div > div > div:nth-child(1) > div{
     margin-bottom: 2%;
 }
 .create{
         color: #006aff ;
       }
+     
 
       #footer{
         color: #7a859d;
@@ -306,5 +335,10 @@ height: 350px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    @media (max-width: 768px) {
+        #carousel, carousel_2{
+            display: none;
+        }
  
   
