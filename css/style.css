@@ -26,6 +26,9 @@ p{
 .mb-50{
     margin-bottom: 50px;
 }
+
+/* Inizio Header*/
+/* NAVBAR */
 .navbar{
     background-color: white;
 }
@@ -78,7 +81,9 @@ p{
 body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) > form > div > div > p{
     color: black;
 }
+/* Fine NAVBAR */
 
+/* Jumbotron */
 
 .jumbo-header{
     background-image:  url(../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
@@ -89,6 +94,11 @@ body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) 
 
     color: lightgrey;
 }
+
+/* Fine Header*/
+
+/* Inizio Main */
+
 
 .deploy ul {
     border-left: 1px solid grey;
@@ -108,7 +118,6 @@ body > header > div.container-fluid.jumbo-header > div > div > div:nth-child(2) 
 .deploy{
     margin-bottom: 50px;
 }
-
 #service {
 line-height: 35px;
 }
@@ -290,13 +299,18 @@ width: 100%;
         color: #006aff ;
     }
 
-      .panel-body{
+.panel-body{
         padding: 5%;
     }
+
+/* Fine Main */
+
+/* Inizio Footer */
 
 #footer{
         color: #7a859d;
         background-color: #031c4e;
+        position: relative;
     };
     }
 #footer > div > div > div > div.col-lg-8.col-md-8.col-sm-12 > div:nth-child(1) > ul{
@@ -318,7 +332,29 @@ width: 100%;
         font-size: 20px;
         margin: 10px 5px;
     }
+    .sharkbot {
+        position: absolute;
+        bottom: 0px;
+        right: 5px;
+    }
+        .sharkbot-text {
+            color: blue;
+            display: inline-block;
+            margin: 0 !important;
+            width: 60%;
+            padding: 5px;
+        }
+        
+        .sharkbot-logo {
+            height: 70px;
+            margin-bottom: 35px;
+            position: relative;
+        }
+        .bg-white {
+            background-color: white;
+    }
 
+    /* Inizio Footer */
 
 
 
